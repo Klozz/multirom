@@ -26,7 +26,7 @@
 #include <dirent.h>
 
 #include "devices.h"
-#include "log.h"
+#include "../log.h"
 #include "../util.h"
 #include "../version.h"
 #include "adb.h"
@@ -269,7 +269,7 @@ int main(int argc, char *argv[])
     if(!fstab)
         goto exit;
 
-#if 0 
+#if 0
     fstab_dump(fstab); //debug
 #endif
 

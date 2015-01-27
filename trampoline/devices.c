@@ -39,7 +39,6 @@
 
 #include <private/android_filesystem_config.h>
 #include <sys/time.h>
-#include <asm/page.h>
 #include <sys/wait.h>
 
 #include <cutils/list.h>
@@ -47,7 +46,7 @@
 
 #include "devices.h"
 #include "../util.h"
-#include "log.h"
+#include "../log.h"
 
 //#define DEBUG_MISSING_UEVENTS 1
 
